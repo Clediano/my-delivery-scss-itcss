@@ -1,0 +1,10 @@
+.c-iconized-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: medium;
+
+  .c-icon {
+    margin: 0 auto 5px auto;
+  }
+}

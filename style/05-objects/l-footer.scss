@@ -1,0 +1,28 @@
+.l-footer {
+  background-color: var(--color-secondary);
+  grid-area: footer;
+
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+
+  &__info {
+  }
+
+  &__copyright {
+    padding: var(--space-s);
+    text-align: center;
+    background-color: var(--color-secondary-dark);
+
+    @media (--medium-up) {
+      height: 75px;
+    }
+  }
+
+  &__content {
+    @media (--medium-up) {
+      max-width: var(--size-medium);
+      margin: 0 auto;
+    }
+  }
+}

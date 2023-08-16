@@ -1,0 +1,23 @@
+.l-main {
+  background-color: var(--color-background);
+
+  display: grid;
+  grid-area: main;
+  grid-template-areas:
+    'aside'
+    'content';
+
+  @media (--medium-up) {
+    gap: var(--space-s);
+    grid-template-areas:
+      'aside content'
+      '. content';
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: minmax(0, auto) 1fr;
+  }
+
+  .is-page-single & {
+    grid-template-areas: 'content aside';
+    grid-template-columns: 1fr 250px;
+  }
+}

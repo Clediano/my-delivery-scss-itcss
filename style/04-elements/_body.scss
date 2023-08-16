@@ -1,0 +1,16 @@
+$main-width: var(--size-medium);
+
+body {
+  background-color: var(--color-background);
+
+  row-gap: var(--space-s);
+  grid-template-columns: 1fr $main-width 1fr;
+  grid-template-areas:
+    'header header header'
+    '. main .'
+    'footer footer footer';
+
+  @media (--medium-up) {
+    display: grid;
+  }
+}

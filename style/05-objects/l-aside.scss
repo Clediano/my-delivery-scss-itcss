@@ -1,0 +1,15 @@
+.l-aside {
+  background-color: #fff;
+  grid-area: aside;
+  padding: var(--space-s);
+  margin-bottom: var(--space-s);
+  border-radius: var(--radius-default);
+
+  max-height: 200px;
+  overflow: auto;
+
+  @media (--medium-up) {
+    max-height: none;
+    margin-bottom: inherit;
+  }
+}

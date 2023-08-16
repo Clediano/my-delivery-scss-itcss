@@ -1,0 +1,29 @@
+.c-tags {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    margin: 10px 5px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  &__link {
+    background-color: var(--color-gray);
+    text-decoration: none;
+    border-radius: var(--space-s);
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #fff;
+    opacity: 0.5;
+
+    &:hover {
+      background-color: var(--color-primary);
+      opacity: 1;
+    }
+  }
+}

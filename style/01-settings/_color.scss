@@ -1,0 +1,22 @@
+/* prettier-ignore */
+:root {
+  --color-brand-hue: 14;
+  --color-brand-saturation: 100%;
+  --color-brand-lightness: 50%;
+
+  --color-brand: hsl(var(--color-brand-hue) var(--color-brand-saturation) var(--color-brand-lightness));
+  --color-primary: var(--color-brand);
+  --color-secondary: hsl(149 var(--color-brand-saturation) 28%);
+  --color-secondary-dark: hsl(150 var(--color-brand-saturation) 21%);
+  --color-background: #f6f3ea;
+  --color-gray: #737373;
+
+  --color-social-media-facebook: hsl(221 44% 41%);
+  --color-social-media-twitter: hsl(196 100% 46%);
+  --color-social-media-linkedin: hsl(201 100% 35%);
+  --color-social-media-youtube: hsl(0 74% 46%);
+  --color-social-media-instagram: hsl(349 75% 57%);
+  --color-social-media-github: hsl(0 0% 20%);
+
+  --color-text: var(--color-social-media-github);
+}

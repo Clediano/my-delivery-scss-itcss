@@ -1,0 +1,15 @@
+@use '../02-tools/v' as *;
+
+.l-header {
+  background-color: v(color-primary);
+  height: 70px;
+  grid-area: header;
+
+  grid-template-columns: var(--size-medium);
+  justify-content: center;
+  align-items: center;
+
+  @media (--medium-up) {
+    display: grid;
+  }
+}

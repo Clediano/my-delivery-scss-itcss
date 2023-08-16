@@ -1,0 +1,12 @@
+.c-button {
+  background-color: var(--color-primary);
+  color: #fff;
+  font-size: medium;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: calc(var(--space-s) / 2);
+
+  &:hover {
+    opacity: 80%;
+  }
+}
